@@ -39,7 +39,7 @@ const config = {
   test: { },
   development: {
     mongo: {
-      uri: 'mongodb://localhost/meshko-is-api-zalik-dev',
+      uri: 'mongodb+srv://john:zxcv1234@mongolab.ikccj.mongodb.net/mongolab?retryWrites=true&w=majority',
       options: {
         debug: true
       }
@@ -49,7 +49,7 @@ const config = {
     ip: process.env.IP || undefined,
     port: process.env.PORT || 8080,
     mongo: {
-      uri: process.env.MONGODB_URI || 'mongodb://localhost/meshko-is-api-zalik'
+      uri: process.env.MONGODB_URI || 'mongodb+srv://john:zxcv1234@mongolab.ikccj.mongodb.net/mongolab?retryWrites=true&w=majority'
     }
   }
 }
